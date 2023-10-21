@@ -14,7 +14,7 @@ public class Filetest {
         var fileName = fileTest.getClass().getClassLoader().getResource("main/codeparty/test.txt");
 
         if (fileName == null || fileName.getPath() == null) {
-            System.err.println("file not found");
+            System.err.println("file not found!!");
             System.exit(1);
         }
 
